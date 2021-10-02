@@ -1,0 +1,25 @@
+{
+  "name": "concat-objects",
+  "version": "1.0.0",
+  "description": "Concat / join JSON objects",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikesingh/concat-objects.git"
+  },
+  "keywords": [
+    "concat",
+    "add",
+    "objects",
+    "join"
+  ],
+  "author": "Shisui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartikesingh/concat-objects/issues"
+  },
+  "homepage": "https://github.com/kartikesingh/concat-objects#readme"
+}
