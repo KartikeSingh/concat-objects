@@ -1,3 +1,19 @@
+# Alternative
+```js
+const a = {}, b = { name: "Shisui" }, c = { age: 69 }, d = { hobby: ["programming", "that's all"] };
+
+Object.assign(a, b, c, d);
+
+// now a is change to 
+/*
+{
+    name: "Shisui",
+    age: 69,
+    hobby: ["programming", "that's all"]
+}
+*/
+```
+
 # Installations
 ```
 npm i concat-objects
