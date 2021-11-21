@@ -11,13 +11,31 @@ With this module you can simply join two or more objects, If objects have same p
 const concatObject = require('concat-objects');
 
 const mergedObject = concatObject(
-    {name:"Shisui"},
-    {address:"Unknown"},
-    {address:"India"},
-    {age:69,weight:69},
+    { name: "Shisui" },
+    { address: "Unknown" },
+    { address: "India" },
+    { age: 69, weight: 69 },
 );
 
 console.log(mergedObject); // => { name: 'Shisui', address: 'India', age: 69, weight: 69 }
+```
+
+# Alternative
+```js
+// I didn't knew about this alternative when I made this package xD
+// just do this
+const a = {
+    name: "someName",
+    last: "kek"
+},
+b = {
+    age: 14
+},
+c = {
+    hobby:["gaming]
+}
+
+const person = Object.assign(a, b, c);
 ```
 
 # Supports
